@@ -1,0 +1,160 @@
+/* App.css */
+
+/* Dark navbar adjustments */
+.navbar-dark .navbar-nav .nav-link {
+  color: hwb(214 94% 3%);
+  font-weight: 500;
+}
+
+.navbar-dark .btn-link {
+  color: hwb(214 94% 3%);
+  font-weight: 500;
+}
+
+/* First button (Become a client) */
+.btn-client {
+  background-color: transparent;
+  color: black; /* Default text color */
+  margin-right: 10px;
+  border: 2px solid white; /* Adds a white border */
+  padding: 10px; /* Adjust padding to fit the border */
+  border-radius: 15px; /* Adds more rounded corners */
+}
+
+.btn-client:hover {
+  background-color: white; /* White background on hover */
+  color: black; /* Ensures the text is visible */
+  border-radius: 15px; /* Keeps the rounded corners on hover */
+}
+
+/* Second button (Sign In) */
+.btn-link ex {
+  background-color: red; /* Red background by default */
+  color: white;          /* White text for contrast */
+  border: none;          /* No border */
+  border-radius: 15px;   /* Adds more rounded corners */
+}
+
+.btn-link ex:hover {
+  background-color: darkred; /* Optional: Darker red on hover */
+  color: white;              /* Keeps text white */
+  border-radius: 15px;       /* Keeps the rounded corners on hover */
+}
+
+
+.navbar-dark .btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.navbar-dark .btn-outline-light:hover {
+  color: #343a40;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+/* Adjust padding between nav items */
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+/* Bottom navbar */
+.navbar-light .nav-link {
+  color: #5a5a5a;
+}
+
+.navbar-light .nav-link:hover {
+  color: #000;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+.advice-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.advice-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.advice-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card a {
+  font-size: 1em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.btn-custom {
+  background-color: #dc3545; /* Red background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+}
+
+.btn-custom:hover {
+  background-color: #c82333; /* Darker red for hover effect */
+}
